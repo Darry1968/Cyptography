@@ -104,21 +104,21 @@ public:
 
     void Decrypt(string encrypted_text, int A[][10])
     {
-        }
-
-    int *Transpose(int A[10][10])
-    {
-        int temp[10][10];
-        for (int i = 0; i < m1; i++)
-        {
-            for (int j = 0; j < n1; j++)
-            {
-                temp[j][i] = A[i][j];
-            }
-        }
-
-        return temp;
     }
+
+    // int *Transpose(int A[10][10])
+    // {
+    //     int temp[10][10];
+    //     for (int i = 0; i < m1; i++)
+    //     {
+    //         for (int j = 0; j < n1; j++)
+    //         {
+    //             temp[j][i] = A[i][j];
+    //         }
+    //     }
+
+    //     return temp;
+    // }
 };
 int main()
 {

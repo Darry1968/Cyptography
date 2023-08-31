@@ -16,7 +16,6 @@ void Encrypt(char tmp[])
     for (int i = 0; i < len; i++)
     {
         str2[i] = tmp[i] ^ 127;
-        // printf("%d", str2[i]);
         cout << str2[i];
     }
 }
